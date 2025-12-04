@@ -2,3 +2,10 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent: #FF0070;
+  --focus: #DB00FF;
+  --text: #F1B2CE;
+  --title: #000028;
+  --bg-img: url(../images/cover-image-dark.png);
+}
