@@ -13,7 +13,7 @@
   --focus: #FFC2E6;
   --text: #353430;
   --title: #353430;
-  --header: #353430;
+  --pink2black: #353430;
   --bg-img: url(../images/cover-image-light.png);
 }
 
@@ -23,14 +23,13 @@
   --focus: #FFC2E6;
   --text: #353430;
   --title: #353430;
-  --header: #353430;
+  --pink2black: #353430;
   --bg-img: url(../images/cover-image-light.png);
   }
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: var(--bg-img);
 }
 
 .theme-light .rec {
