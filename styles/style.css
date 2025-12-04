@@ -198,7 +198,7 @@ h1 {
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
@@ -361,9 +361,13 @@ h2 {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, calc(728 / 3));
-  grid-template-rows: repeat(3, calc(780 / 3));
+  grid-template-columns: repeat(3, calc(728px / 3));
+  grid-template-rows: repeat(3, calc(780px / 3));
   gap: 20px;
+}
+
+img {
+  margin-bottom: 0;
 }
 
 .sunset {
@@ -420,8 +424,8 @@ h2 {
 }
 
 .gallery {
-  grid-template-columns: repeat(3, calc(984 / 3));
-  grid-template-rows: repeat(3, calc(1091 / 3));
+  grid-template-columns: repeat(3, calc(984px / 3));
+  grid-template-rows: repeat(3, calc(1091px / 3));
 }
 
 .title {
