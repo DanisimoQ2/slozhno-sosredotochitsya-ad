@@ -313,6 +313,7 @@ img {
 
 h1 {
   bottom: 238px;
+  top: 238px;
   height: 192px;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
@@ -336,6 +337,7 @@ h2 {
 }
 
 h1 {
+  top: 463px;
   bottom: 462px;
   height: 99px;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -363,7 +365,7 @@ h2 {
 
 .gallery {
   display: grid;
-  height: 823px;
+  height: 780px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
@@ -428,7 +430,7 @@ h2 {
 }
 
 .gallery {
-  height: 1091px;
+  height: 1048px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
