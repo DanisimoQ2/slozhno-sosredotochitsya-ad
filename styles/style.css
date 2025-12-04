@@ -154,7 +154,6 @@ h1 {
 .text {
   color: var(--text);
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .sec2 {
@@ -325,6 +324,10 @@ h2 {
   grid-row: 5;
 }
 
+.title-row {
+  grid-template-columns: none;
+}
+
 h1 {
   bottom: 238px;
   height: 192px;
@@ -357,6 +360,10 @@ h1 {
 
 h2 {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+}
+
+.title-row {
+  grid-template-columns: 1fr 2fr;
 }
 
 .sec1 {
