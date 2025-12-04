@@ -198,7 +198,7 @@ h1 {
 
 .gallery img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 }
@@ -294,34 +294,15 @@ h2 {
 }
 
 .gallery {
-  grid-template-columns: none;
-  grid-template-rows: repeat(5, auto);
-  gap: 20px;
+  display: block;
 }
 
-.sunset {
-  grid-column: none;
-  grid-row: 1;
+img {
+  margin-bottom: 10px;
 }
 
-.ice-cream {
-  grid-column: none;
-  grid-row: 2;
-}
-
-.tape {
-  grid-column: none;
-  grid-row: 3;
-}
-
-.book {
-  grid-column: none;
-  grid-row: 4;
-}
-
-.street {
-  grid-column: none;
-  grid-row: 5;
+.gallery-title {
+  margin-bottom: 10px;
 }
 
 .title-row {
@@ -363,7 +344,11 @@ h2 {
 }
 
 .title-row {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.gallery-title {
+  margin-bottom: 20px;
 }
 
 .sec1 {
@@ -375,8 +360,9 @@ h2 {
 }
 
 .gallery {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, calc(728 / 3));
+  grid-template-rows: repeat(3, calc(780 / 3));
   gap: 20px;
 }
 
@@ -427,6 +413,15 @@ h1 {
 
 h2 {
   font-size: clamp(9.8125rem, 8.1696rem + 2.567vw, 11.25rem);
+}
+
+.title-row {
+  grid-template-columns: 1fr 2fr;
+}
+
+.gallery {
+  grid-template-columns: repeat(3, calc(984 / 3));
+  grid-template-rows: repeat(3, calc(1091 / 3));
 }
 
 .title {
