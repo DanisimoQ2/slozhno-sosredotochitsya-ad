@@ -78,7 +78,7 @@ h1 {
   background-color: var(--accent);
   font-weight: 700;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 23.4px;
 }
 
 .decorated-zone {
@@ -147,13 +147,13 @@ h1 {
 }
 
 .mini-title {
-  line-height: 24px;
+  line-height: 23.4px;
   color: var(--pink2black);
   font-weight: bold;
 }
 
 .text {
-  line-height: 24px;
+  line-height: 23.4px;
   color: var(--text);
   margin-top: 10px;
   margin-bottom: 20px;
@@ -182,7 +182,7 @@ h1 {
   background-color: var(--accent);
   font-weight: 100;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 23.4px;
 }
 
 .gallery-title {
