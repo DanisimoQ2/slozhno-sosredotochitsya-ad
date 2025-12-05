@@ -289,6 +289,18 @@ h2 {
   grid-template-columns: none;
 }
 
+.sec1:has(.text) {
+  width: 351px;
+}
+
+.sec2:has(.text) {
+  width: 355px;
+}
+
+.sec3:has(.text) {
+  width: 355px;
+}
+
 .title {
   right: 10px;
   height: 117px;
@@ -350,6 +362,18 @@ h2 {
   top: 20px;
 }
 
+.sec1:has(.text) {
+  width: 472px;
+}
+
+.sec2:has(.text) {
+  width: 728px;
+}
+
+.sec3:has(.text) {
+  width: 472px;
+}
+
 .main {
   margin: 60px 20px 0 20px;
 }
@@ -378,11 +402,11 @@ h2 {
 }
 
 .sec1 {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 236px 472px;
 }
 
 .sec3 {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 236px 472px;
 }
 
 .gallery {
@@ -426,7 +450,7 @@ img {
 .title {
   right: 20px;
   width: 364px;
-  bottom: 183px;
+  top: 724px;
 }
 }
 
@@ -451,6 +475,30 @@ h2 {
   grid-template-columns: 1fr 2fr;
 }
 
+.sec1:has(.text) {
+  width: 649px;
+}
+
+.sec2:has(.text) {
+  width: 315px;
+}
+
+.sec3:has(.text) {
+  width: 647.5px;
+}
+
+.sec1 {
+  grid-template-columns: 315px 649px;
+}
+
+.sec2 {
+  grid-template-rows: 47px 439px;
+}
+
+.sec3 {
+  grid-template-columns: 315px 649px;
+}
+
 .gallery {
   height: 1048px;
   grid-template-columns: repeat(3, 1fr);
@@ -458,13 +506,13 @@ h2 {
 }
 
 .title {
-  bottom: 135px;
+  top: 563px;
   width: 491px;
   height: 71px;
 }
 
 .content {
   gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 315px);
 }
 }
