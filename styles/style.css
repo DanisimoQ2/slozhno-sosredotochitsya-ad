@@ -147,11 +147,13 @@ h1 {
 }
 
 .mini-title {
+  line-height: 23px;
   color: var(--pink2black);
   font-weight: bold;
 }
 
 .text {
+  line-height: 23px;
   color: var(--text);
   margin-top: 10px;
   margin-bottom: 20px;
@@ -291,7 +293,7 @@ h2 {
   right: 10px;
   height: 117px;
   width: 355px;
-  bottom: 60px;
+  top: 485px;
 }
 
 .gallery {
@@ -321,11 +323,31 @@ h1 {
 h2 {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
+
+.decorated-zone::before {
+  bottom: 10px;
+  left: 10px;
+}
+
+.decorated-zone::after {
+  right: 10px;
+  top: 10px;
+}
 }
 
 @media (width >= 768px) {
 .header__theme-menu-list {
   top: 192px;
+}
+
+.decorated-zone::before {
+  bottom: 20px;
+  left: 20px;
+}
+
+.decorated-zone::after {
+  right: 20px;
+  top: 20px;
 }
 
 .main {
@@ -442,6 +464,7 @@ h2 {
 }
 
 .content {
+  gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
 }
